@@ -18,3 +18,8 @@ go test -short
 go test -run TestShort
 go test -v -short -run TestShort
 
+
+go test -run TestTableSimple
+go test -v -run TestTableSimple
+go test -v -run TestTableSlow
+go test -v -run TestTableParallel
