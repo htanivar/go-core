@@ -1,8 +1,8 @@
 - [x] Normal
-- [ ] Anonymous 
-- [ ] Variadic
-- [ ] Recursive
-- [ ] Higher-order
+- [x] Anonymous
+- [x] Variadic
+- [x] Recursive
+- [x] Higher-order
 - [ ] Method
 - [ ] Closure
 - [ ] Deferred
