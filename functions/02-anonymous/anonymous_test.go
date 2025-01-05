@@ -17,9 +17,9 @@ func TestAdd(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got := add(tt.a, tt.b)
+			got := anonymous_add(tt.a, tt.b)
 			if got != tt.expected {
-				t.Errorf("add(%d,%d) = %d; want %d", tt.a, tt.b, got, tt.expected)
+				t.Errorf("normal_add(%d,%d) = %d; want %d", tt.a, tt.b, got, tt.expected)
 			}
 		})
 	}
