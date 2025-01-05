@@ -1,5 +1,5 @@
 package functions
 
-func add(a, b int) int {
+func normal_add(a, b int) int {
 	return a + b
 }
